@@ -1,0 +1,50 @@
+section {
+  padding: 5px;
+}
+
+input {
+  border-radius: 5px;
+}
+
+input:enabled {
+  background-color: #42bcf5;
+}
+
+input:required {
+  border-color: red;
+}
+
+button:enabled {
+  color: black;
+  background-color: #42bcf5;
+  border: 2px solid rgba(0, 0, 0, 1);
+  border-radius: 4px;
+}
+
+button:disabled {
+  margin-left: 5px;
+  margin-right: 20px;
+  color: rgba(0, 0, 0, 0.6);
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+a {
+  color: green;
+}
+
+a:visited {
+  color: brown;
+}
+
+a:active {
+  color: blue;
+  background-color: orange;
+}
+
+a:hover {
+  color: blueviolet;
+}
+
+
+
