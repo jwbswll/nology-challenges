@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#dashedBorder {
+  border: 3px dashed green;
+}
+
+.blue-text {
+  color: blue;
+}
+.blue-text--line-through {
+  text-decoration: line-through;
+}
+.blue-text--right-aligned {
+  text-align: right;
+}
+
+#coralBorder {
+  border: 2px solid coral;
+}
+
+.larger-h2 {
+  font-size: 2rem;
+  padding: 1px;
+}
+.larger-h2--center-align {
+  text-align: center;
+}
+.larger-h2--blue-header {
+  color: blue;
+}
+
+.bordered-section {
+  border: 2px solid black;
+}
+.bordered-section--top-margin {
+  margin-top: 80px;
+}
+
+.red-underlined {
+  color: red;
+  text-decoration: underline;
+}
+
+.times-new-roman {
+  font-family: "Times New Roman", Times, serif;
+}
+.times-new-roman--no-bullet {
+  list-style: none;
+}
+.times-new-roman--coral-bold-text {
+  color: coral;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+.times-new-roman--brown-text {
+  color: brown;
+}
+
+/*# sourceMappingURL=style.css.map */

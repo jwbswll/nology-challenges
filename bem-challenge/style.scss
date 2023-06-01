@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#dashedBorder {
+  border: 3px dashed green;
+}
+
+.blue-text {
+  color: blue;
+  &--line-through {
+    text-decoration: line-through;
+  }
+  &--right-aligned {
+    text-align: right;
+  }
+}
+
+#coralBorder {
+  border: 2px solid coral;
+}
+
+.larger-h2 {
+  font-size: 2rem;
+  padding: 1px;
+  &--center-align {
+    text-align: center;
+  }
+  &--blue-header {
+    color: blue;
+  }
+
+}
+
+.bordered-section {
+  border: 2px solid black;
+  &--top-margin {
+    margin-top: 80px;
+  }
+}
+
+.red-underlined {
+  color: red;
+  text-decoration: underline;
+}
+
+.times-new-roman {
+  font-family: 'Times New Roman', Times, serif;
+  &--no-bullet {
+    list-style: none;
+  }
+  &--coral-bold-text {
+    color: coral;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  &--brown-text {
+    color: brown;
+  }
+}
