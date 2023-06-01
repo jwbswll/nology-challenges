@@ -1,0 +1,41 @@
+* {
+  font-family: Arial;
+}
+
+main {
+  width: 900px;
+  height: 300px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+div {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blue-div {
+  background-color: aquamarine;
+}
+
+.orange-div {
+  background-color: orange;
+}
+
+.pink-div {
+  background-color: magenta;
+}
+
+.red-div {
+  background-color: red;
+}
+
+.green-div {
+  background-color: lightgreen;
+  margin-left: auto;
+}
