@@ -11,7 +11,6 @@ main {
   flex-wrap: wrap;
   border: 1px solid black;
   width: 600px;
-
 }
 
 #fiveToEight {
@@ -34,44 +33,37 @@ div {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 10px;
 }
 
 #cardOne {
   background-color: lightskyblue;
-  margin: 10px;
 }
 
 #cardTwo {
   background-color: hotpink;
-  margin: 10px;
 }
 
 #cardThree {
   background-color: lightgreen;
-  margin: 10px;
 }
 
 #cardFour {
   background-color: orange;
-  margin: 10px;
 }
 
 #cardFive {
   background-color: lightpink;
-  margin: 10px;
 }
 
 #cardSix {
   background-color: lightgray;
-  margin: 10px;
 }
 
 #cardSeven {
   background-color: aliceblue;
-  margin: 10px;
 }
 
 #cardEight {
   background-color: lightblue;
-  margin: 10px;
 }
