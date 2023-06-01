@@ -17,10 +17,11 @@ main {
   justify-content: space-between;
   align-items: flex-start;
   flex-wrap: wrap;
+  flex-direction: row-reverse;
 }
 
 div {
-  width: 33.3%;
+  width: calc(100% / 3);
   height: 100%;
   display: flex;
   justify-content: center;
