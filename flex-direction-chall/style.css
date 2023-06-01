@@ -6,9 +6,8 @@ body {
 
 main {
   display: flex;
-  /* justify-content: space-evenly; */
   flex-direction: column-reverse;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   border: 1px solid black;
   width: 600px;
 }
