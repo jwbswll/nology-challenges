@@ -1,0 +1,17 @@
+@use 'mixins';
+
+#redBorder {
+  @include mixins.border(dotted, red);
+}
+
+#blueBorder {
+  @include mixins.border(solid, blue);
+}
+
+#blueDashedBorder {
+  @include mixins.border(dashed, blue);
+}
+
+p {
+  @include mixins.para;
+}

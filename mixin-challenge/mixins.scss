@@ -1,0 +1,13 @@
+@mixin border($border-type, $border-color) {
+  border: 3px $border-type $border-color;
+  margin: 40px;
+}
+
+@mixin para {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 23px;
+  margin: 0
+}
+
