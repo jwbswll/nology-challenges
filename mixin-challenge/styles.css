@@ -1,24 +1,27 @@
-#redBorder {
-  border: 3px dotted red;
-  margin: 40px;
-}
-
-#blueBorder {
-  border: 3px solid blue;
-  margin: 40px;
-}
-
-#blueDashedBorder {
-  border: 3px dashed blue;
-  margin: 40px;
-}
-
-p {
+.btn {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   text-align: center;
   font-size: 23px;
   margin: 0;
+}
+.btn--dotted-red {
+  border: 3px dotted red;
+  margin: 40px;
+  width: 800px;
+  background-color: #ececec;
+}
+.btn--solid-blue {
+  border: 3px solid blue;
+  margin: 40px;
+  width: 800px;
+  background-color: white;
+}
+.btn--dashed-blue {
+  border: 3px dashed blue;
+  margin: 40px;
+  width: 800px;
+  background-color: white;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,17 +1,17 @@
 @use 'mixins';
 
-#redBorder {
-  @include mixins.border(dotted, red);
-}
-
-#blueBorder {
-  @include mixins.border(solid, blue);
-}
-
-#blueDashedBorder {
-  @include mixins.border(dashed, blue);
-}
-
-p {
-  @include mixins.para;
+.btn {
+  @include mixins.text;
+  &--dotted-red {
+    @include mixins.border(dotted, red);
+    background-color: #ececec
+  }
+  &--solid-blue {
+    @include mixins.border(solid, blue);
+    background-color: white;
+  }
+  &--dashed-blue {
+    @include mixins.border(dashed, blue);
+    background-color: white;
+  }
 }
