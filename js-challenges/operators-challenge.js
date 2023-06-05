@@ -16,11 +16,13 @@ console.log(myAge)
 let earthDays = 365
 const moonRotationDays = 27.3
 
-console.log(earthDays / moonRotationDays)
+console.log(Math.floor(earthDays / moonRotationDays))
+console.log(Math.ceil(earthDays / moonRotationDays))
 
 // Challenge 3
 
 earthDays = 730
 const moonOrbitDays = moonRotationDays
 
-console.log(earthDays / moonOrbitDays)
+console.log(Math.round(earthDays / moonOrbitDays))
+console.log((earthDays / moonOrbitDays).toFixed(2))
