@@ -86,7 +86,7 @@ if (parent1 === "blue" && parent2 === "blue") {
     green = 50;
 }
 
-console.log(`Your eye colours are ${parent1} and ${parent2}, the chances of your child having blue eyes is ${blue}%, brown is ${brown}% and green is ${green}%.`)
+console.log(`Your eye colors are ${parent1} and ${parent2}, the chances of your child having blue eyes is ${blue}%, brown is ${brown}% and green is ${green}%.`)
 
 
 //challenge 4 - bonus
@@ -105,12 +105,12 @@ if ((blue > green) && (blue > brown)) {
 
 switch(childEyeColor) {
   case "blue":
-    console.log("Your child has my favourite eye colour: Blue");
+    console.log("Your child has my favourite eye color: Blue");
     break;
   case "green":
-    console.log("Your child has my least favourite eye colour: Green");
+    console.log("Your child has my least favourite eye color: Green");
     break;
   case "brown":
-    console.log("Your child has my second favourite eye colour: Brown");
+    console.log("Your child has my second favourite eye color: Brown");
     break;
 }
