@@ -10,6 +10,7 @@ if (x > y) {
   console.log("x is equal to y")
 }
 
+
 // challenge 2
 let userInput = 2
 
@@ -20,6 +21,7 @@ if (parseInt(userInput)) {
 } else {
   console.log("Invalid Input")
 }
+
 
 // challenge 3
 let dayNumber = 8
@@ -50,8 +52,9 @@ switch(dayNumber) {
     console.log("Input is invalid");
 }
 
+
 // challenge 4
-let parent1 = "green";
+let parent1 = "brown";
 let parent2 = "green";
 let blue = 0;
 let brown = 0;
@@ -75,7 +78,7 @@ if (parent1 === "blue" && parent2 === "blue") {
     green = 0;
 } else if (parent1 === "green" && parent2 === "green") {
     blue = 25;
-    brown = "<1";
+    brown = 1;
     green = 75;
 } else if (parent1 === "green" && parent2 === "blue" || parent1 === "blue" && parent2 === "green") {
     blue = 50;
@@ -84,3 +87,30 @@ if (parent1 === "blue" && parent2 === "blue") {
 }
 
 console.log(`Your eye colours are ${parent1} and ${parent2}, the chances of your child having blue eyes is ${blue}%, brown is ${brown}% and green is ${green}%.`)
+
+
+//challenge 4 - bonus
+let childEyeColor = ''
+
+if ((blue > green) && (blue > brown)) {
+  childEyeColor = "blue"
+} else if ((green > blue) && (green > brown)) {
+  childEyeColor = "green"
+} else if ((brown > blue) && (brown > green)) {
+  childEyeColor = "brown"
+} else if (blue == green || blue == brown) {
+  childEyeColor = "blue"
+} else if (brown == green)
+  childEyeColor= "brown"
+
+switch(childEyeColor) {
+  case "blue":
+    console.log("Your child has my favourite eye colour: Blue");
+    break;
+  case "green":
+    console.log("Your child has my least favourite eye colour: Green");
+    break;
+  case "brown":
+    console.log("Your child has my second favourite eye colour: Brown");
+    break;
+}
