@@ -1,6 +1,6 @@
 // CHALLENGE 1
 const moonOrbits = (earthDays) => {
-  return (earthDays / 27.3).toFixed(2);
+  return parseFloat((earthDays / 27.3).toFixed(2));
 }
 
 console.log(moonOrbits(54));
@@ -9,13 +9,13 @@ console.log(moonOrbits(365));
 
 // CHALLENGE 2
 const circleArea = (radius) => {
-  return (Math.PI * (radius**2)).toFixed(2);
+  return parseFloat((Math.PI * (radius**2)).toFixed(2));
 }
 
 console.log(circleArea(10));
 
 const circlePerim = (radius) => {
-  return (2 * Math.PI * radius).toFixed(2);
+  return parseFloat((2 * Math.PI * radius).toFixed(2));
 }
 
 console.log(circlePerim(10));
