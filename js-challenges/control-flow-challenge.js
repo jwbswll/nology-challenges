@@ -73,17 +73,17 @@ if (parent1 === "blue" && parent2 === "blue") {
   brown = 50;
   green = 37.5;
 } else if (parent1 === "blue" && parent2 === "brown" || parent1 === "brown" && parent2 === "blue") {
-    blue = 50;
-    brown = 50;
-    green = 0;
+  blue = 50;
+  brown = 50;
+  green = 0;
 } else if (parent1 === "green" && parent2 === "green") {
-    blue = 25;
-    brown = 1;
-    green = 75;
+  blue = 25;
+  brown = 1;
+  green = 75;
 } else if (parent1 === "green" && parent2 === "blue" || parent1 === "blue" && parent2 === "green") {
-    blue = 50;
-    brown = 0;
-    green = 50;
+  blue = 50;
+  brown = 0;
+  green = 50;
 }
 
 console.log(`Your eye colors are ${parent1} and ${parent2}, the chances of your child having blue eyes is ${blue}%, brown is ${brown}% and green is ${green}%.`)
