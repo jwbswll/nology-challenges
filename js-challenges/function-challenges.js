@@ -2,6 +2,7 @@
 const moonOrbits = (earthDays) => {
   return (earthDays / 27.3).toFixed(2);
 }
+
 console.log(moonOrbits(54));
 console.log(moonOrbits(365));
 
@@ -10,11 +11,13 @@ console.log(moonOrbits(365));
 const circleArea = (radius) => {
   return (Math.PI * (radius**2)).toFixed(2);
 }
+
 console.log(circleArea(10));
 
 const circlePerim = (radius) => {
   return (2 * Math.PI * radius).toFixed(2);
 }
+
 console.log(circlePerim(10));
 
 
@@ -22,11 +25,13 @@ console.log(circlePerim(10));
 const ageInDays = (age) => {
   return age * 365;
 }
+
 console.log(ageInDays(27));
 
 const ageInSeconds = (age) => {
   return age * 31536000;
 }
+
 console.log(ageInSeconds(27));
 
 
@@ -34,6 +39,7 @@ console.log(ageInSeconds(27));
 const remainder = (numerator, denominator) => {
   return numerator % denominator;
 }
+
 console.log(remainder(1, 3));
 console.log(remainder(3, 4));
 console.log(remainder(-9, 45));
@@ -46,6 +52,7 @@ const basketballScore = (twoPointers, threePointers) => {
   let threePointersScore = threePointers * 3;
   return twoPointersScore + threePointersScore;
 }
+
 console.log(basketballScore(10, 9));
 
 
@@ -58,6 +65,7 @@ const lessThan100 = (num1, num2) => {
     return false;
   }
 }
+
 console.log(lessThan100(50, 51));
 console.log(lessThan100(28, 51));
 console.log(lessThan100(70, 51));
