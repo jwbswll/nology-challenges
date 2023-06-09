@@ -3,7 +3,7 @@ const moonOrbits = (earthDays) => {
   return parseFloat((earthDays / 27.3).toFixed(2));
 }
 
-console.log(moonOrbits(54));
+console.log(moonOrbits(54.6));
 console.log(moonOrbits(365));
 
 
@@ -12,13 +12,13 @@ const circleArea = (radius) => {
   return parseFloat((Math.PI * (radius**2)).toFixed(2));
 }
 
-console.log(circleArea(10));
+console.log(circleArea(2));
 
 const circlePerim = (radius) => {
   return parseFloat((2 * Math.PI * radius).toFixed(2));
 }
 
-console.log(circlePerim(10));
+console.log(circlePerim(2));
 
 
 // CHALLENGE 3
@@ -66,7 +66,10 @@ const lessThan100 = (num1, num2) => {
   }
 }
 
+// can be refactored to:
+const refactoredLessThan100 = (num1, num2) => num1 + num2 < 100;
+
 console.log(lessThan100(50, 51));
 console.log(lessThan100(28, 51));
-console.log(lessThan100(70, 51));
-console.log(lessThan100(50, 20));
+console.log(refactoredLessThan100(70, 51));
+console.log(refactoredLessThan100(50, 20));
