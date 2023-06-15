@@ -1,7 +1,7 @@
 // challenge 1
 const sumOfN = (n) => {
   sum = 0
-  for (let i = 0; i < n + 1; i++) {
+  for (let i = 1; i <= n; i++) {
     sum += i
   }
   return sum
@@ -19,14 +19,18 @@ for (let i = 0; i < shoppingList.length; i++) {
 
 
 // challenge 3 + bonus:
-const wordStr = "jack"
+const wordStr = "zzz"
 let newStr = ""
 
 for (let i = 0; i < wordStr.length; i++) {
-  if (!(i % 2)) {
+  if (i % 2) {
     newStr += wordStr[i].toUpperCase()
   } else {
+    if (wordStr[i] === "z") {
+      newStr += "a"
+    } else {
     newStr += String.fromCharCode(wordStr[i].charCodeAt(0)+1)
+    }
   }
 }
 
@@ -34,13 +38,13 @@ console.log(newStr)
 
 
 // challenge 4 + bonus: 
-const lastName = "William"
+const lastName = "Calum"
 let noVowels = ""
 
 for (let i = 0; i < lastName.length; i++) {
-  if (!/[aeiouAEIOU]/.test(lastName[i])) {
+  if (!/[aeiou]/i.test(lastName[i])) {
     noVowels += lastName[i]
-  } else if (/[aeiouAEIOU]/.test(lastName[i]) && /[lmrLMR]/.test(lastName[i+1])) {
+  } else if (/[aeiou]/i.test(lastName[i]) && /[lmr]/i.test(lastName[i+1])) {
     noVowels += lastName[i]
   }
 }
