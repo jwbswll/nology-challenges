@@ -64,11 +64,7 @@ const destination2 = source.reduce((acc, curr) => {
 
 console.log(destination2);
 
-const destination3 = source.filter((item) => {
-	if ((item + 3) % 2 === 0) {
-		return item + 3;
-	}
-});
+const destination3 = source.filter((item) => (item + 3) % 3 === 0);
 console.log(destination3);
 
 const source1 = "Convert to snakecase".split("");
@@ -85,8 +81,9 @@ console.log(str);
 
 console.log(("ba" + +"a" + "a").toLowerCase());
 
-// const arr5 = new Array(2).fill(null);
-// console.log(`Aspi${arr.pop() ?? "ra"}tions`);
+const arr5 = new Array(2).fill(null);
+console.log(arr.pop());
+console.log(`Aspi${arr.pop() ?? "ra"}tions`);
 
 // console.log(arr5);
 
@@ -104,20 +101,6 @@ while (i++ <= chars.length) {
 
 console.log(output);
 
-const suits = [1, 2, 3, 4];
-
-const drawCards = (n = 10) => {
-	const cards = [];
-	while (cards.length < n) {
-		console.log("n", n);
-		let card = Math.floor(Math.random() * 13) + 1;
-		card += suits[Math.floor(Math.random() * 4)];
-		if (cards.includes(card)) continue;
-		cards.push(card);
-	}
-	return cards;
-};
-
-console.log(drawCards(5));
-console.log(drawCards(55));
-console.log(drawCards(21));
+console.log(0 ?? "ra");
+console.log("0" ?? "ra");
+console.log(null ?? "ra");
