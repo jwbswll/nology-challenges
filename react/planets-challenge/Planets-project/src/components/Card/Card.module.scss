@@ -1,0 +1,41 @@
+.card {
+  width: 340px;
+  padding: 1.2em;
+  color: white;
+  background-color: black;
+  border-radius: 20px;
+  position: relative;
+  &:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    z-index: 2;
+  }
+  &:not(:hover) {
+    transform: scale(1);
+    transition: 0.5s
+  }
+}
+
+.noMoons {
+  width: 340px;
+  padding: 1.2em;
+  color: black;
+  background-color: lightgray;
+  border-radius: 20px;
+  position: relative;
+  &:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    z-index: 2;
+  }
+  &:not(:hover) {
+    transform: scale(1);
+    transition: 0.5s
+  }
+}
+
+.image {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
